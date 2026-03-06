@@ -82,3 +82,13 @@ warning: in the working copy of 'ihm_logs/historico_L1/IP_registro192.168.2.150/
 [2026-03-06 15:40:26] Iniciando sincronização...
 [2026-03-06 15:40:26] Copiado: C:\FROMTHERM_IHM_UPLOADS\historico_L1\IP_registro192.168.2.150\datalog\historico_L1_20260306_1527_OP1111_FT50H.csv -> C:\fromtherm_ihm_logs_repo\ihm_logs\historico_L1\IP_registro192.168.2.150\datalog\historico_L1_20260306_1527_OP1111_FT50H.csv
 [2026-03-06 15:40:26] 1 novo(s) arquivo(s) copiado(s). Preparando git add/commit/push...
+[2026-03-06 15:40:26] Git stderr: warning: in the working copy of 'ihm_logs/historico_L1/IP_registro192.168.2.150/datalog/historico_L1_20260306_1527_OP1111_FT50H.csv', LF will be replaced by CRLF the next time Git touches it
+[2026-03-06 15:40:26] Git stdout: [main 8fa4432] Atualizando logs IHM - 2026-03-06 15:40:26
+ 2 files changed, 21 insertions(+)
+ create mode 100644 ihm_logs/historico_L1/IP_registro192.168.2.150/datalog/historico_L1_20260306_1527_OP1111_FT50H.csv
+[2026-03-06 15:40:28] Git stderr: To https://github.com/bruno-fromtherm/fromtherm-ihm-logs.git
+   e3cdc78..8fa4432  main -> main
+[2026-03-06 15:40:28] Sincronização com GitHub concluída com sucesso.
+[2026-03-06 16:11:02] Iniciando sincronização...
+[2026-03-06 16:11:02] Copiado: C:\FROMTHERM_IHM_UPLOADS\historico_L1\IP_registro192.168.2.150\datalog\historico_L1_20260306_1604_OP454545_FT101BR.csv -> C:\fromtherm_ihm_logs_repo\ihm_logs\historico_L1\IP_registro192.168.2.150\datalog\historico_L1_20260306_1604_OP454545_FT101BR.csv
+[2026-03-06 16:11:02] 1 novo(s) arquivo(s) copiado(s). Preparando git add/commit/push...
