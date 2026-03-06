@@ -2,3 +2,23 @@
 [2026-03-05 21:52:37] Copiado: C:\FROMTHERM_IHM_UPLOADS\historico_L1\IP_registro192.168.2.150\datalog\historico_L1_20260305_1848_OP555_195HH.csv -> C:\fromtherm_ihm_logs_repo\ihm_logs\historico_L1\IP_registro192.168.2.150\datalog\historico_L1_20260305_1848_OP555_195HH.csv
 [2026-03-05 21:52:37] Copiado: C:\FROMTHERM_IHM_UPLOADS\historico_L1\IP_registro192.168.2.150\datalog\historico_L1_20260305_2143_OP0000_FT100H.csv -> C:\fromtherm_ihm_logs_repo\ihm_logs\historico_L1\IP_registro192.168.2.150\datalog\historico_L1_20260305_2143_OP0000_FT100H.csv
 [2026-03-05 21:52:37] 2 novo(s) arquivo(s) copiado(s). Preparando git add/commit/push...
+[2026-03-05 21:52:37] Git stderr: warning: in the working copy of 'ihm_logs/historico_L1/IP_registro192.168.2.150/datalog/historico_L1_20260305_1848_OP555_195HH.csv', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'ihm_logs/historico_L1/IP_registro192.168.2.150/datalog/historico_L1_20260305_2143_OP0000_FT100H.csv', LF will be replaced by CRLF the next time Git touches it
+[2026-03-05 21:52:37] Git stdout: [main aaace2b] Atualizando logs IHM - 2026-03-05 21:52:37
+ 4 files changed, 104 insertions(+), 58 deletions(-)
+ create mode 100644 ihm_logs/historico_L1/IP_registro192.168.2.150/datalog/historico_L1_20260305_1848_OP555_195HH.csv
+ create mode 100644 ihm_logs/historico_L1/IP_registro192.168.2.150/datalog/historico_L1_20260305_2143_OP0000_FT100H.csv
+ create mode 100644 sync_log.txt
+[2026-03-05 21:52:38] Git stderr: To https://github.com/bruno-fromtherm/fromtherm-ihm-logs.git
+   30bdf9a..aaace2b  main -> main
+[2026-03-05 21:52:38] Sincronização com GitHub concluída com sucesso.
+[2026-03-05 21:53:27] Iniciando sincronização...
+[2026-03-05 21:53:27] Nenhum novo arquivo CSV encontrado.
+[2026-03-05 21:53:27] Sincronização finalizada.
+[2026-03-05 22:01:04] Iniciando sincronização...
+[2026-03-05 22:01:04] Nenhum novo arquivo CSV encontrado.
+[2026-03-05 22:01:04] Sincronização finalizada.
+[2026-03-05 22:03:37] Iniciando sincronização...
+[2026-03-05 22:03:37] Copiado: C:\FROMTHERM_IHM_UPLOADS\historico_L1\IP_registro192.168.2.150\datalog\historico_L1_20260305_1848_OP555_195HH.csv -> C:\fromtherm_ihm_logs_repo\ihm_logs\historico_L1\IP_registro192.168.2.150\datalog\historico_L1_20260305_1848_OP555_195HH.csv
+[2026-03-05 22:03:37] Copiado: C:\FROMTHERM_IHM_UPLOADS\historico_L1\IP_registro192.168.2.150\datalog\historico_L1_20260305_2143_OP0000_FT100H.csv -> C:\fromtherm_ihm_logs_repo\ihm_logs\historico_L1\IP_registro192.168.2.150\datalog\historico_L1_20260305_2143_OP0000_FT100H.csv
+[2026-03-05 22:03:37] 2 novo(s) arquivo(s) copiado(s). Preparando git add/commit/push...
