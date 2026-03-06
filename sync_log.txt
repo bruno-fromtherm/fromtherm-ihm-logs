@@ -22,3 +22,14 @@ warning: in the working copy of 'ihm_logs/historico_L1/IP_registro192.168.2.150/
 [2026-03-05 22:03:37] Copiado: C:\FROMTHERM_IHM_UPLOADS\historico_L1\IP_registro192.168.2.150\datalog\historico_L1_20260305_1848_OP555_195HH.csv -> C:\fromtherm_ihm_logs_repo\ihm_logs\historico_L1\IP_registro192.168.2.150\datalog\historico_L1_20260305_1848_OP555_195HH.csv
 [2026-03-05 22:03:37] Copiado: C:\FROMTHERM_IHM_UPLOADS\historico_L1\IP_registro192.168.2.150\datalog\historico_L1_20260305_2143_OP0000_FT100H.csv -> C:\fromtherm_ihm_logs_repo\ihm_logs\historico_L1\IP_registro192.168.2.150\datalog\historico_L1_20260305_2143_OP0000_FT100H.csv
 [2026-03-05 22:03:37] 2 novo(s) arquivo(s) copiado(s). Preparando git add/commit/push...
+[2026-03-05 22:03:37] Git stdout: [main 1bf5ca2] Atualizando logs IHM - 2026-03-05 22:03:37
+ 1 file changed, 20 insertions(+)
+[2026-03-05 22:03:38] Git stderr: To https://github.com/bruno-fromtherm/fromtherm-ihm-logs.git
+   aaace2b..1bf5ca2  main -> main
+[2026-03-05 22:03:38] Sincronização com GitHub concluída com sucesso.
+[2026-03-05 22:17:07] Iniciando sincronização...
+[2026-03-05 22:17:07] Nenhum novo arquivo CSV encontrado.
+[2026-03-05 22:17:07] Sincronização finalizada.
+[2026-03-05 23:00:43] Iniciando sincronização...
+[2026-03-05 23:00:43] Copiado: C:\FROMTHERM_IHM_UPLOADS\historico_L1\IP_registro192.168.2.150\datalog\historico_L1_20260305_2257_OP7777_FT140KK.csv -> C:\fromtherm_ihm_logs_repo\ihm_logs\historico_L1\IP_registro192.168.2.150\datalog\historico_L1_20260305_2257_OP7777_FT140KK.csv
+[2026-03-05 23:00:43] 1 novo(s) arquivo(s) copiado(s). Preparando git add/commit/push...
