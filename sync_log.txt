@@ -67,3 +67,18 @@ warning: in the working copy of 'ihm_logs/historico_L1/IP_registro192.168.2.150/
 [2026-03-06 14:59:26] Copiado: C:\FROMTHERM_IHM_UPLOADS\historico_L1\IP_registro192.168.2.150\datalog\historico_L1_20260306_0826_OP44444_FTI500BR.csv -> C:\fromtherm_ihm_logs_repo\ihm_logs\historico_L1\IP_registro192.168.2.150\datalog\historico_L1_20260306_0826_OP44444_FTI500BR.csv
 [2026-03-06 14:59:26] Copiado: C:\FROMTHERM_IHM_UPLOADS\historico_L1\IP_registro192.168.2.150\datalog\historico_L1_20260306_1442_OP3333_FTI688LBR.csv -> C:\fromtherm_ihm_logs_repo\ihm_logs\historico_L1\IP_registro192.168.2.150\datalog\historico_L1_20260306_1442_OP3333_FTI688LBR.csv
 [2026-03-06 14:59:26] 2 novo(s) arquivo(s) copiado(s). Preparando git add/commit/push...
+[2026-03-06 14:59:26] Git stderr: warning: in the working copy of 'ihm_logs/historico_L1/IP_registro192.168.2.150/datalog/historico_L1_20260306_0826_OP44444_FTI500BR.csv', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'ihm_logs/historico_L1/IP_registro192.168.2.150/datalog/historico_L1_20260306_1442_OP3333_FTI688LBR.csv', LF will be replaced by CRLF the next time Git touches it
+[2026-03-06 14:59:26] Git stdout: [main e3cdc78] Atualizando logs IHM - 2026-03-06 14:59:26
+ 3 files changed, 30 insertions(+)
+ create mode 100644 ihm_logs/historico_L1/IP_registro192.168.2.150/datalog/historico_L1_20260306_0826_OP44444_FTI500BR.csv
+ create mode 100644 ihm_logs/historico_L1/IP_registro192.168.2.150/datalog/historico_L1_20260306_1442_OP3333_FTI688LBR.csv
+[2026-03-06 14:59:28] Git stderr: To https://github.com/bruno-fromtherm/fromtherm-ihm-logs.git
+   b6656c1..e3cdc78  main -> main
+[2026-03-06 14:59:28] Sincronização com GitHub concluída com sucesso.
+[2026-03-06 15:04:28] Iniciando sincronização...
+[2026-03-06 15:04:28] Nenhum novo arquivo CSV encontrado.
+[2026-03-06 15:04:28] Sincronização finalizada.
+[2026-03-06 15:40:26] Iniciando sincronização...
+[2026-03-06 15:40:26] Copiado: C:\FROMTHERM_IHM_UPLOADS\historico_L1\IP_registro192.168.2.150\datalog\historico_L1_20260306_1527_OP1111_FT50H.csv -> C:\fromtherm_ihm_logs_repo\ihm_logs\historico_L1\IP_registro192.168.2.150\datalog\historico_L1_20260306_1527_OP1111_FT50H.csv
+[2026-03-06 15:40:26] 1 novo(s) arquivo(s) copiado(s). Preparando git add/commit/push...
