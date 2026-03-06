@@ -44,3 +44,15 @@ warning: in the working copy of 'ihm_logs/historico_L1/IP_registro192.168.2.150/
 [2026-03-05 23:58:40] Copiado: C:\FROMTHERM_IHM_UPLOADS\historico_L1\IP_registro192.168.2.150\datalog\historico_L1_20260305_2340_OP8888_FTI240L_BR.csv -> C:\fromtherm_ihm_logs_repo\ihm_logs\historico_L1\IP_registro192.168.2.150\datalog\historico_L1_20260305_2340_OP8888_FTI240L_BR.csv
 [2026-03-05 23:58:40] Copiado: C:\FROMTHERM_IHM_UPLOADS\historico_L1\IP_registro192.168.2.150\datalog\historico_L1_20260305_2351_1111FTRY.csv -> C:\fromtherm_ihm_logs_repo\ihm_logs\historico_L1\IP_registro192.168.2.150\datalog\historico_L1_20260305_2351_1111FTRY.csv
 [2026-03-05 23:58:40] 2 novo(s) arquivo(s) copiado(s). Preparando git add/commit/push...
+[2026-03-05 23:58:40] Git stderr: warning: in the working copy of 'ihm_logs/historico_L1/IP_registro192.168.2.150/datalog/historico_L1_20260305_2340_OP8888_FTI240L_BR.csv', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'ihm_logs/historico_L1/IP_registro192.168.2.150/datalog/historico_L1_20260305_2351_1111FTRY.csv', LF will be replaced by CRLF the next time Git touches it
+[2026-03-05 23:58:40] Git stdout: [main 8855269] Atualizando logs IHM - 2026-03-05 23:58:40
+ 3 files changed, 22 insertions(+)
+ create mode 100644 ihm_logs/historico_L1/IP_registro192.168.2.150/datalog/historico_L1_20260305_2340_OP8888_FTI240L_BR.csv
+ create mode 100644 ihm_logs/historico_L1/IP_registro192.168.2.150/datalog/historico_L1_20260305_2351_1111FTRY.csv
+[2026-03-05 23:58:42] Git stderr: To https://github.com/bruno-fromtherm/fromtherm-ihm-logs.git
+   837dadb..8855269  main -> main
+[2026-03-05 23:58:42] Sincronização com GitHub concluída com sucesso.
+[2026-03-06 07:45:27] Iniciando sincronização...
+[2026-03-06 07:45:27] Copiado: C:\FROMTHERM_IHM_UPLOADS\historico_L1\IP_registro192.168.2.150\datalog\historico_L1_20260306_0718_OP999_FTI378L_BR.csv -> C:\fromtherm_ihm_logs_repo\ihm_logs\historico_L1\IP_registro192.168.2.150\datalog\historico_L1_20260306_0718_OP999_FTI378L_BR.csv
+[2026-03-06 07:45:27] 1 novo(s) arquivo(s) copiado(s). Preparando git add/commit/push...
