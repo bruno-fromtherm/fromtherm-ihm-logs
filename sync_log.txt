@@ -131,3 +131,40 @@ warning: in the working copy of 'ihm_logs/historico_L1/IP_registro192.168.2.150/
 [2026-03-06 21:04:27] Copiado: C:\Users\Bruno\OneDrive\Documentos\FROMTHERM-IHM-ENVIO-AUTOMATICO\FROMTHERM_IHM_UPLOADS\historico_L1\IP_registro192.168.2.150\datalog\historico_L1_20260306_1717_OP9090_FT55L.csv -> C:\Users\Bruno\OneDrive\Documentos\FROMTHERM-IHM-ENVIO-AUTOMATICO\fromtherm_ihm_logs_repo\ihm_logs\historico_L1\IP_registro192.168.2.150\datalog\historico_L1_20260306_1717_OP9090_FT55L.csv
 [2026-03-06 21:04:27] Copiado: C:\Users\Bruno\OneDrive\Documentos\FROMTHERM-IHM-ENVIO-AUTOMATICO\FROMTHERM_IHM_UPLOADS\historico_L1\IP_registro192.168.2.150\datalog\historico_L1_20260306_1737_OP2222_FT77.csv -> C:\Users\Bruno\OneDrive\Documentos\FROMTHERM-IHM-ENVIO-AUTOMATICO\fromtherm_ihm_logs_repo\ihm_logs\historico_L1\IP_registro192.168.2.150\datalog\historico_L1_20260306_1737_OP2222_FT77.csv
 [2026-03-06 21:04:27] 12 novo(s) arquivo(s) copiado(s). Preparando git add/commit/push...
+[2026-03-06 21:04:27] Git: git add . -> 
+[2026-03-06 21:04:28] Git: git commit -m Atualizando logs IHM - 2026-03-06 21:04:27 -> [main 46c73f7] Atualizando logs IHM - 2026-03-06 21:04:27
+ 4 files changed, 80 insertions(+), 38 deletions(-)
+ create mode 100644 ihm_logs/historico_L1/IP_registro192.168.2.150/datalog/historico_L1_20260306_1717_OP9090_FT55L.csv
+ create mode 100644 ihm_logs/historico_L1/IP_registro192.168.2.150/datalog/historico_L1_20260306_1737_OP2222_FT77.csv
+[2026-03-06 21:04:30] Git: git push origin main -> 
+[2026-03-06 21:04:30] Sincronização com GitHub concluída com sucesso.
+[2026-03-06 21:20:05] Iniciando sincronização de arquivos CSV para o GitHub...
+[2026-03-06 21:20:05] Nenhum novo arquivo CSV encontrado.
+[2026-03-06 21:20:05] Sincronização finalizada.
+[2026-03-06 21:20:42] Iniciando sincronização de arquivos CSV para o GitHub...
+[2026-03-06 21:20:42] Nenhum novo arquivo CSV encontrado.
+[2026-03-06 21:20:42] Sincronização finalizada.
+[2026-03-06 21:24:29] Iniciando sincronização de arquivos CSV para o GitHub...
+[2026-03-06 21:24:29] Nenhum novo arquivo CSV encontrado.
+[2026-03-06 21:24:29] Sincronização finalizada.
+[2026-03-06 21:55:32] Iniciando sincronização de arquivos CSV para o GitHub...
+[2026-03-06 21:55:32] Nenhum novo arquivo CSV encontrado.
+[2026-03-06 21:55:32] Sincronização finalizada.
+[2026-03-06 22:02:47] Iniciando sincronização de arquivos CSV para o GitHub...
+[2026-03-06 22:02:47] Nenhum novo arquivo CSV encontrado.
+[2026-03-06 22:02:47] Sincronização finalizada.
+[2026-03-06 22:15:50] Iniciando sincronização de arquivos CSV para o GitHub...
+[2026-03-06 22:15:50] Nenhum novo arquivo CSV encontrado.
+[2026-03-06 22:15:50] Sincronização finalizada.
+[2026-03-06 22:21:13] Iniciando sincronização de arquivos CSV para o GitHub...
+[2026-03-06 22:21:13] Nenhum novo arquivo CSV encontrado.
+[2026-03-06 22:21:13] Sincronização finalizada.
+[2026-03-06 22:22:12] Iniciando sincronização de arquivos CSV para o GitHub...
+[2026-03-06 22:22:12] Nenhum novo arquivo CSV encontrado.
+[2026-03-06 22:22:12] Sincronização finalizada.
+[2026-03-06 22:24:10] Iniciando sincronização de arquivos CSV para o GitHub...
+[2026-03-06 22:24:10] Nenhum novo arquivo CSV encontrado.
+[2026-03-06 22:24:10] Sincronização finalizada.
+[2026-03-06 22:27:40] Iniciando sincronização de arquivos CSV para o GitHub...
+[2026-03-06 22:27:40] Copiado: C:\Users\Bruno\OneDrive\Documentos\FROMTHERM-IHM-ENVIO-AUTOMATICO\FROMTHERM_IHM_UPLOADS\historico_L1\IP_registro192.168.2.150\datalog\historico_L1_20260307_TESTE_NOVO.csv -> C:\Users\Bruno\OneDrive\Documentos\FROMTHERM-IHM-ENVIO-AUTOMATICO\fromtherm_ihm_logs_repo\ihm_logs\historico_L1\IP_registro192.168.2.150\datalog\historico_L1_20260307_TESTE_NOVO.csv
+[2026-03-06 22:27:40] 1 novo(s) arquivo(s) copiado(s). Preparando git add/commit/push...

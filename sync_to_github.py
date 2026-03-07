@@ -5,8 +5,7 @@ import datetime
 
 # CONFIGURAÇÕES
 # Pasta onde os arquivos CSV da IHM chegam (raiz dos uploads)
-SOURCE_DIR = r"C:\Users\Bruno\OneDrive\Documentos\FROMTHERM-IHM-ENVIO-AUTOMATICO\FROMTHERM_IHM_UPLOADS"
-
+SOURCE_DIR = SOURCE_DIR = r"C:\Users\Bruno\OneDrive\Documentos\FROMTHERM-IHM-ENVIO-AUTOMATICO\FROMTHERM_IHM_UPLOADS"
 # Pasta dentro do repositório LOCAL onde vamos guardar os CSVs
 DEST_DIR = r"C:\Users\Bruno\OneDrive\Documentos\FROMTHERM-IHM-ENVIO-AUTOMATICO\fromtherm_ihm_logs_repo\ihm_logs"
 
