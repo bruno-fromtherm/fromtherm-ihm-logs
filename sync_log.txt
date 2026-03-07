@@ -92,3 +92,42 @@ warning: in the working copy of 'ihm_logs/historico_L1/IP_registro192.168.2.150/
 [2026-03-06 16:11:02] Iniciando sincronização...
 [2026-03-06 16:11:02] Copiado: C:\FROMTHERM_IHM_UPLOADS\historico_L1\IP_registro192.168.2.150\datalog\historico_L1_20260306_1604_OP454545_FT101BR.csv -> C:\fromtherm_ihm_logs_repo\ihm_logs\historico_L1\IP_registro192.168.2.150\datalog\historico_L1_20260306_1604_OP454545_FT101BR.csv
 [2026-03-06 16:11:02] 1 novo(s) arquivo(s) copiado(s). Preparando git add/commit/push...
+[2026-03-06 16:11:03] Git stderr: warning: in the working copy of 'ihm_logs/historico_L1/IP_registro192.168.2.150/datalog/historico_L1_20260306_1604_OP454545_FT101BR.csv', LF will be replaced by CRLF the next time Git touches it
+[2026-03-06 16:11:03] Git stdout: [main ec37e60] Atualizando logs IHM - 2026-03-06 16:11:03
+ 2 files changed, 16 insertions(+)
+ create mode 100644 ihm_logs/historico_L1/IP_registro192.168.2.150/datalog/historico_L1_20260306_1604_OP454545_FT101BR.csv
+[2026-03-06 16:11:04] Git stderr: To https://github.com/bruno-fromtherm/fromtherm-ihm-logs.git
+   8fa4432..ec37e60  main -> main
+[2026-03-06 16:11:04] Sincronização com GitHub concluída com sucesso.
+[2026-03-06 19:54:58] Iniciando sincronização...
+[2026-03-06 19:54:58] Pasta de origem não encontrada: C:\FROMTHERM_IHM_UPLOADS
+[2026-03-06 19:54:58] Sincronização finalizada com erro de configuração.
+[2026-03-06 19:57:27] Iniciando sincronização...
+[2026-03-06 19:57:27] Pasta de origem não encontrada: C:\FROMTHERM_IHM_UPLOADS
+[2026-03-06 19:57:27] Sincronização finalizada com erro de configuração.
+[2026-03-06 19:57:55] Iniciando sincronização...
+[2026-03-06 19:57:55] Pasta de origem não encontrada: C:\FROMTHERM_IHM_UPLOADS
+[2026-03-06 19:57:55] Sincronização finalizada com erro de configuração.
+[2026-03-06 20:07:29] Iniciando sincronização...
+[2026-03-06 20:07:29] Pasta de origem não encontrada: C:\Users\Bruno\OneDrive\Documentos\FROMTHERM_IHM_UPLOADS
+[2026-03-06 20:07:29] Sincronização finalizada com erro de configuração.
+[2026-03-06 20:09:45] Iniciando sincronização...
+[2026-03-06 20:09:45] Pasta de origem não encontrada: C:\Users\Bruno\OneDrive\Documentos\FROMTHERM_IHM_UPLOADS
+[2026-03-06 20:09:45] Sincronização finalizada com erro de configuração.
+[2026-03-06 20:10:46] Iniciando sincronização...
+[2026-03-06 20:10:46] Pasta de origem não encontrada: C:\Users\Bruno\OneDrive\Documentos\FROMTHERM_IHM_UPLOADS
+[2026-03-06 20:10:46] Sincronização finalizada com erro de configuração.
+[2026-03-06 21:04:27] Iniciando sincronização de arquivos CSV para o GitHub...
+[2026-03-06 21:04:27] Copiado: C:\Users\Bruno\OneDrive\Documentos\FROMTHERM-IHM-ENVIO-AUTOMATICO\FROMTHERM_IHM_UPLOADS\historico_L1\IP_registro192.168.2.150\datalog\historico_L1_20260305_1848_OP555_195HH.csv -> C:\Users\Bruno\OneDrive\Documentos\FROMTHERM-IHM-ENVIO-AUTOMATICO\fromtherm_ihm_logs_repo\ihm_logs\historico_L1\IP_registro192.168.2.150\datalog\historico_L1_20260305_1848_OP555_195HH.csv
+[2026-03-06 21:04:27] Copiado: C:\Users\Bruno\OneDrive\Documentos\FROMTHERM-IHM-ENVIO-AUTOMATICO\FROMTHERM_IHM_UPLOADS\historico_L1\IP_registro192.168.2.150\datalog\historico_L1_20260305_2143_OP0000_FT100H.csv -> C:\Users\Bruno\OneDrive\Documentos\FROMTHERM-IHM-ENVIO-AUTOMATICO\fromtherm_ihm_logs_repo\ihm_logs\historico_L1\IP_registro192.168.2.150\datalog\historico_L1_20260305_2143_OP0000_FT100H.csv
+[2026-03-06 21:04:27] Copiado: C:\Users\Bruno\OneDrive\Documentos\FROMTHERM-IHM-ENVIO-AUTOMATICO\FROMTHERM_IHM_UPLOADS\historico_L1\IP_registro192.168.2.150\datalog\historico_L1_20260305_2257_OP7777_FT140KK.csv -> C:\Users\Bruno\OneDrive\Documentos\FROMTHERM-IHM-ENVIO-AUTOMATICO\fromtherm_ihm_logs_repo\ihm_logs\historico_L1\IP_registro192.168.2.150\datalog\historico_L1_20260305_2257_OP7777_FT140KK.csv
+[2026-03-06 21:04:27] Copiado: C:\Users\Bruno\OneDrive\Documentos\FROMTHERM-IHM-ENVIO-AUTOMATICO\FROMTHERM_IHM_UPLOADS\historico_L1\IP_registro192.168.2.150\datalog\historico_L1_20260305_2340_OP8888_FTI240L_BR.csv -> C:\Users\Bruno\OneDrive\Documentos\FROMTHERM-IHM-ENVIO-AUTOMATICO\fromtherm_ihm_logs_repo\ihm_logs\historico_L1\IP_registro192.168.2.150\datalog\historico_L1_20260305_2340_OP8888_FTI240L_BR.csv
+[2026-03-06 21:04:27] Copiado: C:\Users\Bruno\OneDrive\Documentos\FROMTHERM-IHM-ENVIO-AUTOMATICO\FROMTHERM_IHM_UPLOADS\historico_L1\IP_registro192.168.2.150\datalog\historico_L1_20260305_2351_1111FTRY.csv -> C:\Users\Bruno\OneDrive\Documentos\FROMTHERM-IHM-ENVIO-AUTOMATICO\fromtherm_ihm_logs_repo\ihm_logs\historico_L1\IP_registro192.168.2.150\datalog\historico_L1_20260305_2351_1111FTRY.csv
+[2026-03-06 21:04:27] Copiado: C:\Users\Bruno\OneDrive\Documentos\FROMTHERM-IHM-ENVIO-AUTOMATICO\FROMTHERM_IHM_UPLOADS\historico_L1\IP_registro192.168.2.150\datalog\historico_L1_20260306_0718_OP999_FTI378L_BR.csv -> C:\Users\Bruno\OneDrive\Documentos\FROMTHERM-IHM-ENVIO-AUTOMATICO\fromtherm_ihm_logs_repo\ihm_logs\historico_L1\IP_registro192.168.2.150\datalog\historico_L1_20260306_0718_OP999_FTI378L_BR.csv
+[2026-03-06 21:04:27] Copiado: C:\Users\Bruno\OneDrive\Documentos\FROMTHERM-IHM-ENVIO-AUTOMATICO\FROMTHERM_IHM_UPLOADS\historico_L1\IP_registro192.168.2.150\datalog\historico_L1_20260306_0826_OP44444_FTI500BR.csv -> C:\Users\Bruno\OneDrive\Documentos\FROMTHERM-IHM-ENVIO-AUTOMATICO\fromtherm_ihm_logs_repo\ihm_logs\historico_L1\IP_registro192.168.2.150\datalog\historico_L1_20260306_0826_OP44444_FTI500BR.csv
+[2026-03-06 21:04:27] Copiado: C:\Users\Bruno\OneDrive\Documentos\FROMTHERM-IHM-ENVIO-AUTOMATICO\FROMTHERM_IHM_UPLOADS\historico_L1\IP_registro192.168.2.150\datalog\historico_L1_20260306_1442_OP3333_FTI688LBR.csv -> C:\Users\Bruno\OneDrive\Documentos\FROMTHERM-IHM-ENVIO-AUTOMATICO\fromtherm_ihm_logs_repo\ihm_logs\historico_L1\IP_registro192.168.2.150\datalog\historico_L1_20260306_1442_OP3333_FTI688LBR.csv
+[2026-03-06 21:04:27] Copiado: C:\Users\Bruno\OneDrive\Documentos\FROMTHERM-IHM-ENVIO-AUTOMATICO\FROMTHERM_IHM_UPLOADS\historico_L1\IP_registro192.168.2.150\datalog\historico_L1_20260306_1527_OP1111_FT50H.csv -> C:\Users\Bruno\OneDrive\Documentos\FROMTHERM-IHM-ENVIO-AUTOMATICO\fromtherm_ihm_logs_repo\ihm_logs\historico_L1\IP_registro192.168.2.150\datalog\historico_L1_20260306_1527_OP1111_FT50H.csv
+[2026-03-06 21:04:27] Copiado: C:\Users\Bruno\OneDrive\Documentos\FROMTHERM-IHM-ENVIO-AUTOMATICO\FROMTHERM_IHM_UPLOADS\historico_L1\IP_registro192.168.2.150\datalog\historico_L1_20260306_1604_OP454545_FT101BR.csv -> C:\Users\Bruno\OneDrive\Documentos\FROMTHERM-IHM-ENVIO-AUTOMATICO\fromtherm_ihm_logs_repo\ihm_logs\historico_L1\IP_registro192.168.2.150\datalog\historico_L1_20260306_1604_OP454545_FT101BR.csv
+[2026-03-06 21:04:27] Copiado: C:\Users\Bruno\OneDrive\Documentos\FROMTHERM-IHM-ENVIO-AUTOMATICO\FROMTHERM_IHM_UPLOADS\historico_L1\IP_registro192.168.2.150\datalog\historico_L1_20260306_1717_OP9090_FT55L.csv -> C:\Users\Bruno\OneDrive\Documentos\FROMTHERM-IHM-ENVIO-AUTOMATICO\fromtherm_ihm_logs_repo\ihm_logs\historico_L1\IP_registro192.168.2.150\datalog\historico_L1_20260306_1717_OP9090_FT55L.csv
+[2026-03-06 21:04:27] Copiado: C:\Users\Bruno\OneDrive\Documentos\FROMTHERM-IHM-ENVIO-AUTOMATICO\FROMTHERM_IHM_UPLOADS\historico_L1\IP_registro192.168.2.150\datalog\historico_L1_20260306_1737_OP2222_FT77.csv -> C:\Users\Bruno\OneDrive\Documentos\FROMTHERM-IHM-ENVIO-AUTOMATICO\fromtherm_ihm_logs_repo\ihm_logs\historico_L1\IP_registro192.168.2.150\datalog\historico_L1_20260306_1737_OP2222_FT77.csv
+[2026-03-06 21:04:27] 12 novo(s) arquivo(s) copiado(s). Preparando git add/commit/push...
