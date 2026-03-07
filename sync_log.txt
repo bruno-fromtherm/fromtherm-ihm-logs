@@ -168,3 +168,9 @@ warning: in the working copy of 'ihm_logs/historico_L1/IP_registro192.168.2.150/
 [2026-03-06 22:27:40] Iniciando sincronização de arquivos CSV para o GitHub...
 [2026-03-06 22:27:40] Copiado: C:\Users\Bruno\OneDrive\Documentos\FROMTHERM-IHM-ENVIO-AUTOMATICO\FROMTHERM_IHM_UPLOADS\historico_L1\IP_registro192.168.2.150\datalog\historico_L1_20260307_TESTE_NOVO.csv -> C:\Users\Bruno\OneDrive\Documentos\FROMTHERM-IHM-ENVIO-AUTOMATICO\fromtherm_ihm_logs_repo\ihm_logs\historico_L1\IP_registro192.168.2.150\datalog\historico_L1_20260307_TESTE_NOVO.csv
 [2026-03-06 22:27:40] 1 novo(s) arquivo(s) copiado(s). Preparando git add/commit/push...
+[2026-03-06 22:27:40] Git: git add . -> 
+[2026-03-06 22:27:40] Git: git commit -m Atualizando logs IHM - 2026-03-06 22:27:40 -> [main 48b7424] Atualizando logs IHM - 2026-03-06 22:27:40
+ 3 files changed, 39 insertions(+), 2 deletions(-)
+ create mode 100644 ihm_logs/historico_L1/IP_registro192.168.2.150/datalog/historico_L1_20260307_TESTE_NOVO.csv
+[2026-03-06 22:27:42] Git: git push origin main -> 
+[2026-03-06 22:27:42] Sincronização com GitHub concluída com sucesso.

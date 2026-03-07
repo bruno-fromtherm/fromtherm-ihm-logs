@@ -5,7 +5,8 @@ import datetime
 
 # CONFIGURAÇÕES
 # Pasta onde os arquivos CSV da IHM chegam (raiz dos uploads)
-SOURCE_DIR = SOURCE_DIR = r"C:\Users\Bruno\OneDrive\Documentos\FROMTHERM-IHM-ENVIO-AUTOMATICO\FROMTHERM_IHM_UPLOADS"
+SOURCE_DIR = r"C:\Users\Bruno\OneDrive\Documentos\FROMTHERM-IHM-ENVIO-AUTOMATICO\FROMTHERM_IHM_UPLOADS"
+
 # Pasta dentro do repositório LOCAL onde vamos guardar os CSVs
 DEST_DIR = r"C:\Users\Bruno\OneDrive\Documentos\FROMTHERM-IHM-ENVIO-AUTOMATICO\fromtherm_ihm_logs_repo\ihm_logs"
 
@@ -21,69 +22,73 @@ def log_message(message: str):
     line = f"[{timestamp}] {message}"
     print(line)
     # Garante que a pasta do log existe antes de tentar escrever
-    os.makedirs(os.path.dirname(PROCESSED_FILES_LOG), exist_ok=True)
-    with open(os.path.join(GIT_REPO_PATH, "sync_log.txt"), "a", encoding="utf-8") as f:
+    log_path = os.path.join(GIT_REPO_PATH, "sync_log.txt")
+    os.makedirs(os.path.dirname(log_path), exist_ok=True)
+    with open(log_path, "a", encoding="utf-8") as f:
         f.write(line + "\n")
 
 def get_processed_files():
-    """Lê a lista de arquivos já processados."""
-    processed = set()
-    if os.path.exists(PROCESSED_FILES_LOG):
-        with open(PROCESSED_FILES_LOG, "r", encoding="utf-8") as f:
-            for line in f:
-                processed.add(line.strip())
-    return processed
+    """Lê o arquivo de controle e devolve um conjunto com os caminhos já processados."""
+    if not os.path.exists(PROCESSED_FILES_LOG):
+        return set()
+    with open(PROCESSED_FILES_LOG, "r", encoding="utf-8") as f:
+        return set(f.read().splitlines())
 
-def add_processed_file(filepath: str):
-    """Adiciona um arquivo à lista de processados."""
+def add_processed_file(path: str):
+    """Registra um novo arquivo como já processado."""
     with open(PROCESSED_FILES_LOG, "a", encoding="utf-8") as f:
-        f.write(filepath + "\n")
+        f.write(path + "\n")
 
-def run_git_command(command: list):
-    """Executa um comando Git e loga o resultado."""
+def run_git_command(args):
+    """Executa um comando git dentro do repositório e registra logs."""
     try:
         result = subprocess.run(
-            command,
+            args,
             cwd=GIT_REPO_PATH,
+            check=True,
             capture_output=True,
             text=True,
-            check=True,
             encoding="utf-8"
         )
-        log_message(f"Git: {' '.join(command)} -> {result.stdout.strip()}")
+        if result.stdout.strip():
+            log_message(f"Git stdout: {result.stdout.strip()}")
+        if result.stderr.strip():
+            log_message(f"Git stderr: {result.stderr.strip()}")
         return True
     except subprocess.CalledProcessError as e:
-        log_message(f"Erro Git: {' '.join(command)} -> {e.stderr.strip()}")
+        log_message(f"Erro Git: {e}")
+        if e.stdout:
+            log_message(f"Git stdout (erro): {e.stdout.strip()}")
+        if e.stderr:
+            log_message(f"Git stderr (erro): {e.stderr.strip()}")
         return False
     except FileNotFoundError:
-        log_message("Erro: Git não encontrado. Certifique-se de que o Git está instalado e no PATH.")
+        log_message("Erro: Comando Git não encontrado. Certifique-se de que o Git está instalado e no PATH.")
         return False
 
 def sync_files():
     log_message("Iniciando sincronização de arquivos CSV para o GitHub...")
 
     if not os.path.exists(SOURCE_DIR):
-        log_message(f"Pasta de origem não encontrada: {SOURCE_DIR}")
-        log_message("Sincronização finalizada com erro de configuração.")
+        log_message(f"Erro: Pasta de origem não encontrada: {SOURCE_DIR}")
         return
+
+    os.makedirs(DEST_DIR, exist_ok=True)
 
     processed = get_processed_files()
     new_files = []
 
-    # Varre a pasta de origem
     for root, _, files in os.walk(SOURCE_DIR):
         for file in files:
-            # Só queremos arquivos CSV
             if not file.lower().endswith(".csv"):
                 continue
 
             source_path = os.path.join(root, file)
 
-            # Se já foi processado, pula
             if source_path in processed:
                 continue
 
-            # Caminho relativo para manter subpastas (se existirem)
+            # Mantém a estrutura de subpastas
             relative = os.path.relpath(source_path, SOURCE_DIR)
             dest_path = os.path.join(DEST_DIR, relative)
 
@@ -139,4 +144,3 @@ def sync_files():
 
 if __name__ == "__main__":
     sync_files()
-  
