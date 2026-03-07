@@ -182,3 +182,29 @@ warning: in the working copy of 'ihm_logs/historico_L1/IP_registro192.168.2.150/
 [2026-03-06 23:30:51] Copiado: C:\Users\Bruno\OneDrive\Documentos\FROMTHERM-IHM-ENVIO-AUTOMATICO\FROMTHERM_IHM_UPLOADS\historico_L1\IP_registro192.168.2.150\datalog\historico_L1_20260306_2250_OPHHH_FT888.csv -> C:\Users\Bruno\OneDrive\Documentos\FROMTHERM-IHM-ENVIO-AUTOMATICO\fromtherm_ihm_logs_repo\ihm_logs\historico_L1\IP_registro192.168.2.150\datalog\historico_L1_20260306_2250_OPHHH_FT888.csv
 [2026-03-06 23:30:51] Copiado: C:\Users\Bruno\OneDrive\Documentos\FROMTHERM-IHM-ENVIO-AUTOMATICO\FROMTHERM_IHM_UPLOADS\historico_L1\IP_registro192.168.2.150\datalog\historico_L1_20260306_2329_OP321_FT123L.csv -> C:\Users\Bruno\OneDrive\Documentos\FROMTHERM-IHM-ENVIO-AUTOMATICO\fromtherm_ihm_logs_repo\ihm_logs\historico_L1\IP_registro192.168.2.150\datalog\historico_L1_20260306_2329_OP321_FT123L.csv
 [2026-03-06 23:30:51] 3 novo(s) arquivo(s) copiado(s). Preparando git add/commit/push...
+[2026-03-06 23:30:51] Git stderr: warning: in the working copy of 'ihm_logs/historico_L1/IP_registro192.168.2.150/datalog/historico_L1_20260306_2152_OP444_FTT60.csv', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'ihm_logs/historico_L1/IP_registro192.168.2.150/datalog/historico_L1_20260306_2250_OPHHH_FT888.csv', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'ihm_logs/historico_L1/IP_registro192.168.2.150/datalog/historico_L1_20260306_2329_OP321_FT123L.csv', LF will be replaced by CRLF the next time Git touches it
+[2026-03-06 23:30:51] Git stdout: [main 651245d] Atualizando logs IHM - 2026-03-06 23:30:51
+ 4 files changed, 26 insertions(+)
+ create mode 100644 ihm_logs/historico_L1/IP_registro192.168.2.150/datalog/historico_L1_20260306_2152_OP444_FTT60.csv
+ create mode 100644 ihm_logs/historico_L1/IP_registro192.168.2.150/datalog/historico_L1_20260306_2250_OPHHH_FT888.csv
+ create mode 100644 ihm_logs/historico_L1/IP_registro192.168.2.150/datalog/historico_L1_20260306_2329_OP321_FT123L.csv
+[2026-03-06 23:30:52] Git stderr: To https://github.com/bruno-fromtherm/fromtherm-ihm-logs.git
+   37b412c..651245d  main -> main
+[2026-03-06 23:30:52] Sincronização com GitHub concluída com sucesso.
+[2026-03-06 23:57:27] Iniciando sincronização de arquivos CSV para o GitHub...
+[2026-03-06 23:57:27] Nenhum novo arquivo CSV encontrado.
+[2026-03-06 23:57:27] Sincronização finalizada.
+[2026-03-07 00:09:42] Iniciando sincronização de arquivos CSV para o GitHub...
+[2026-03-07 00:09:42] Nenhum novo arquivo CSV encontrado.
+[2026-03-07 00:09:42] Sincronização finalizada.
+[2026-03-07 00:13:43] Iniciando sincronização de arquivos CSV para o GitHub...
+[2026-03-07 00:13:43] Nenhum novo arquivo CSV encontrado.
+[2026-03-07 00:13:43] Sincronização finalizada.
+[2026-03-07 00:13:54] Iniciando sincronização de arquivos CSV para o GitHub...
+[2026-03-07 00:13:54] Nenhum novo arquivo CSV encontrado.
+[2026-03-07 00:13:54] Sincronização finalizada.
+[2026-03-07 00:17:38] Iniciando sincronização de arquivos CSV para o GitHub...
+[2026-03-07 00:17:38] Copiado: C:\Users\Bruno\OneDrive\Documentos\FROMTHERM-IHM-ENVIO-AUTOMATICO\FROMTHERM_IHM_UPLOADS\historico_L1\IP_registro192.168.2.150\datalog\historico_L1_20260307_0016_OP456_FT123L.csv -> C:\Users\Bruno\OneDrive\Documentos\FROMTHERM-IHM-ENVIO-AUTOMATICO\fromtherm_ihm_logs_repo\ihm_logs\historico_L1\IP_registro192.168.2.150\datalog\historico_L1_20260307_0016_OP456_FT123L.csv
+[2026-03-07 00:17:38] 1 novo(s) arquivo(s) copiado(s). Preparando git add/commit/push...

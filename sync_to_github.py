@@ -4,7 +4,7 @@ import subprocess
 import datetime
 
 # CONFIGURAÇÕES
-# Pasta onde os arquivos CSV da IHM chegam (raiz dos uploads)
+# Pasta onde os arquivos CSV da IHM chegam (via IHM -> C:\FROMTHERM_IHM_UPLOADS, espelhado no OneDrive)
 SOURCE_DIR = r"C:\Users\Bruno\OneDrive\Documentos\FROMTHERM-IHM-ENVIO-AUTOMATICO\FROMTHERM_IHM_UPLOADS"
 
 # Pasta dentro do repositório LOCAL onde vamos guardar os CSVs
@@ -21,7 +21,6 @@ def log_message(message: str):
     timestamp = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     line = f"[{timestamp}] {message}"
     print(line)
-    # Garante que a pasta do log existe antes de tentar escrever
     log_path = os.path.join(GIT_REPO_PATH, "sync_log.txt")
     os.makedirs(os.path.dirname(log_path), exist_ok=True)
     with open(log_path, "a", encoding="utf-8") as f:
@@ -63,7 +62,7 @@ def run_git_command(args):
             log_message(f"Git stderr (erro): {e.stderr.strip()}")
         return False
     except FileNotFoundError:
-        log_message("Erro: Comando Git não encontrado. Certifique-se de que o Git está instalado e no PATH.")
+        log_message("Erro: Git não encontrado. Verifique se está instalado e no PATH.")
         return False
 
 def sync_files():
@@ -92,7 +91,6 @@ def sync_files():
             relative = os.path.relpath(source_path, SOURCE_DIR)
             dest_path = os.path.join(DEST_DIR, relative)
 
-            # Garante que a pasta de destino existe
             os.makedirs(os.path.dirname(dest_path), exist_ok=True)
 
             try:
@@ -144,3 +142,4 @@ def sync_files():
 
 if __name__ == "__main__":
     sync_files()
+   
