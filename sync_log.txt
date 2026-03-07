@@ -208,3 +208,19 @@ warning: in the working copy of 'ihm_logs/historico_L1/IP_registro192.168.2.150/
 [2026-03-07 00:17:38] Iniciando sincronização de arquivos CSV para o GitHub...
 [2026-03-07 00:17:38] Copiado: C:\Users\Bruno\OneDrive\Documentos\FROMTHERM-IHM-ENVIO-AUTOMATICO\FROMTHERM_IHM_UPLOADS\historico_L1\IP_registro192.168.2.150\datalog\historico_L1_20260307_0016_OP456_FT123L.csv -> C:\Users\Bruno\OneDrive\Documentos\FROMTHERM-IHM-ENVIO-AUTOMATICO\fromtherm_ihm_logs_repo\ihm_logs\historico_L1\IP_registro192.168.2.150\datalog\historico_L1_20260307_0016_OP456_FT123L.csv
 [2026-03-07 00:17:38] 1 novo(s) arquivo(s) copiado(s). Preparando git add/commit/push...
+[2026-03-07 00:17:38] Git stderr: warning: in the working copy of 'ihm_logs/historico_L1/IP_registro192.168.2.150/datalog/historico_L1_20260307_0016_OP456_FT123L.csv', LF will be replaced by CRLF the next time Git touches it
+[2026-03-07 00:17:38] Git stdout: [main 041392e] Atualizando logs IHM - 2026-03-07 00:17:38
+ 3 files changed, 34 insertions(+), 5 deletions(-)
+ create mode 100644 ihm_logs/historico_L1/IP_registro192.168.2.150/datalog/historico_L1_20260307_0016_OP456_FT123L.csv
+[2026-03-07 00:17:40] Git stderr: To https://github.com/bruno-fromtherm/fromtherm-ihm-logs.git
+   651245d..041392e  main -> main
+[2026-03-07 00:17:40] Sincronização com GitHub concluída com sucesso.
+[2026-03-07 00:22:20] Iniciando sincronização de arquivos CSV para o GitHub...
+[2026-03-07 00:22:20] Nenhum novo arquivo CSV encontrado.
+[2026-03-07 00:22:20] Sincronização finalizada.
+[2026-03-07 00:24:04] Iniciando sincronização de arquivos CSV para o GitHub...
+[2026-03-07 00:24:04] Nenhum novo arquivo CSV encontrado.
+[2026-03-07 00:24:04] Sincronização finalizada.
+[2026-03-07 00:27:26] Iniciando sincronização de arquivos CSV para o GitHub...
+[2026-03-07 00:27:26] Copiado: C:\Users\Bruno\OneDrive\Documentos\FROMTHERM-IHM-ENVIO-AUTOMATICO\FROMTHERM_IHM_UPLOADS\historico_L1\IP_registro192.168.2.150\datalog\historico_L1_20260307_0025_OP555_FT444L.csv -> C:\Users\Bruno\OneDrive\Documentos\FROMTHERM-IHM-ENVIO-AUTOMATICO\fromtherm_ihm_logs_repo\ihm_logs\historico_L1\IP_registro192.168.2.150\datalog\historico_L1_20260307_0025_OP555_FT444L.csv
+[2026-03-07 00:27:26] 1 novo(s) arquivo(s) copiado(s). Preparando git add/commit/push...
