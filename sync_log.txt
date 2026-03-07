@@ -174,3 +174,11 @@ warning: in the working copy of 'ihm_logs/historico_L1/IP_registro192.168.2.150/
  create mode 100644 ihm_logs/historico_L1/IP_registro192.168.2.150/datalog/historico_L1_20260307_TESTE_NOVO.csv
 [2026-03-06 22:27:42] Git: git push origin main -> 
 [2026-03-06 22:27:42] Sincronização com GitHub concluída com sucesso.
+[2026-03-06 22:52:17] Iniciando sincronização de arquivos CSV para o GitHub...
+[2026-03-06 22:52:17] Nenhum novo arquivo CSV encontrado.
+[2026-03-06 22:52:17] Sincronização finalizada.
+[2026-03-06 23:30:51] Iniciando sincronização de arquivos CSV para o GitHub...
+[2026-03-06 23:30:51] Copiado: C:\Users\Bruno\OneDrive\Documentos\FROMTHERM-IHM-ENVIO-AUTOMATICO\FROMTHERM_IHM_UPLOADS\historico_L1\IP_registro192.168.2.150\datalog\historico_L1_20260306_2152_OP444_FTT60.csv -> C:\Users\Bruno\OneDrive\Documentos\FROMTHERM-IHM-ENVIO-AUTOMATICO\fromtherm_ihm_logs_repo\ihm_logs\historico_L1\IP_registro192.168.2.150\datalog\historico_L1_20260306_2152_OP444_FTT60.csv
+[2026-03-06 23:30:51] Copiado: C:\Users\Bruno\OneDrive\Documentos\FROMTHERM-IHM-ENVIO-AUTOMATICO\FROMTHERM_IHM_UPLOADS\historico_L1\IP_registro192.168.2.150\datalog\historico_L1_20260306_2250_OPHHH_FT888.csv -> C:\Users\Bruno\OneDrive\Documentos\FROMTHERM-IHM-ENVIO-AUTOMATICO\fromtherm_ihm_logs_repo\ihm_logs\historico_L1\IP_registro192.168.2.150\datalog\historico_L1_20260306_2250_OPHHH_FT888.csv
+[2026-03-06 23:30:51] Copiado: C:\Users\Bruno\OneDrive\Documentos\FROMTHERM-IHM-ENVIO-AUTOMATICO\FROMTHERM_IHM_UPLOADS\historico_L1\IP_registro192.168.2.150\datalog\historico_L1_20260306_2329_OP321_FT123L.csv -> C:\Users\Bruno\OneDrive\Documentos\FROMTHERM-IHM-ENVIO-AUTOMATICO\fromtherm_ihm_logs_repo\ihm_logs\historico_L1\IP_registro192.168.2.150\datalog\historico_L1_20260306_2329_OP321_FT123L.csv
+[2026-03-06 23:30:51] 3 novo(s) arquivo(s) copiado(s). Preparando git add/commit/push...
